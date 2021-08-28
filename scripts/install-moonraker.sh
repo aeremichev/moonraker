@@ -36,7 +36,8 @@ cleanup_legacy() {
 # Step 3: Install packages
 install_packages()
 {
-    PKGLIST="python3-virtualenv python3-dev nginx libopenjp2-7 python3-libgpiod"
+    #PKGLIST="python3-virtualenv python3-dev nginx libopenjp2-7 python3-libgpiod"
+    PKGLIST="python3-virtualenv python3-dev nginx libopenjp2-7"
     PKGLIST="${PKGLIST} liblmdb0 libsodium-dev zlib1g-dev"
 
     # Update system package info
